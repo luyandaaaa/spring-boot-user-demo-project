@@ -9,6 +9,9 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.mockito.ArgumentMatchers.anyLong;
+import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.*;
 
 class UserServiceTests {
@@ -27,10 +30,9 @@ class UserServiceTests {
     @Test
     void testAddUser() {
         when(fakeRepo.insertUser(anyLong(), eq("John"), eq("Doe")))
-            .thenReturn("John added");
-        
+            .thenReturn("John added"); 
         String result = userService.addUser("John", "Doe");
-        assertEquals("John added", result);
+        assertTrue(result.matches("John added with ID: \\d+"));
         verify(fakeRepo, times(1)).insertUser(anyLong(), eq("John"), eq("Doe"));
     }
 

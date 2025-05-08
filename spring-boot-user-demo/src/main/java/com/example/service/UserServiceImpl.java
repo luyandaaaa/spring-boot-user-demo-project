@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UserServiceImpl implements UserService {
     private final FakeRepo fakeRepo;
+    private long currentId = 1L;
+
 
     @Autowired
     public UserServiceImpl(FakeRepo fakeRepo) {
@@ -13,9 +15,10 @@ public class UserServiceImpl implements UserService {
     }
     @Override
     public String addUser(String name, String surname) {
-        long id = (long) (Math.random() * 1000); // Generate random ID
-        fakeRepo.insertUser(id, name, surname);
-        return name + " added";
+        fakeRepo.insertUser(currentId, name, surname);
+        String result = name + " added with ID: " + currentId;
+        currentId++;  // Increment for next user
+        return result;
     }
 
     @Override
