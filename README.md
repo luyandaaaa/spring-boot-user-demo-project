@@ -66,12 +66,11 @@ spring-boot-user-demo/
 🛠️ Spring Boot Best Practices: Proper annotations usage
 
 ## 🛠️ Technologies
-Technology	Icon	Purpose
-Java 17	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20">	Core language
-Spring Boot	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="20">	Framework
-Gradle	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" width="20">	Build tool
-JUnit 5	<img src="https://junit.org/junit5/assets/img/junit5-logo.png" width="20">	Testing
-Mockito	<img src="https://site.mockito.org/favicon.ico" width="20">	Mocking
+Java 17	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="20">	Core language <br />
+Spring Boot	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="20">	Framework <br />
+Gradle	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gradle/gradle-plain.svg" width="20">	Build tool <br />
+JUnit 5	<img src="https://junit.org/junit5/assets/img/junit5-logo.png" width="20">	Testing <br />
+Mockito	<img src="https://site.mockito.org/favicon.ico" width="20">	Mocking <br />
 
 ## ⚙️ Installation
 ```text
