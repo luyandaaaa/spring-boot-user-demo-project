@@ -8,6 +8,22 @@
   <img src="https://img.shields.io/badge/Mockito-78CFF5?style=for-the-badge" alt="Mockito">
 </div>
 
+## 📌 Project Overview
+
+This Spring Boot application demonstrates fundamental concepts of modern Java web development:
+
+🔹 **Core Purpose**: A lightweight user management system showcasing:
+- Spring Boot fundamentals (DI, IoC, Annotations)
+- Clean layered architecture (MVC pattern)
+- In-memory data storage
+- Test-driven development practices
+
+🔹 **Key Functionality**:
+- Create users with auto-generated IDs
+- Retrieve user details
+- Remove users from the system
+- Console-based interaction
+
 ## 📁 Project Structure
 
 ```text
@@ -17,25 +33,26 @@ spring-boot-user-demo/
 │   │   ├── 📂 java/
 │   │   │   └── com/
 │   │   │       └── example/
-│   │   │           ├── 🟢 DemoApplication.java         # Main application
+│   │   │           ├── 🟢 DemoApplication.java         
 │   │   │           ├── 📂 model/
-│   │   │           │   └── 🧑 User.java               # User entity
+│   │   │           │   └── 🧑 User.java               
 │   │   │           ├── 📂 repo/
-│   │   │           │   ├── 💾 FakeRepo.java           # Repository
-│   │   │           │   └── 📜 FakeRepoInterface.java  # Repository interface
+│   │   │           │   ├── 💾 FakeRepo.java           
+│   │   │           │   └── 📜 FakeRepoInterface.java  
 │   │   │           └── 📂 service/
-│   │   │               ├── ⚙️ UserService.java        # Service interface
-│   │   │               └── 🔧 UserServiceImpl.java    # Service implementation
+│   │   │               ├── ⚙️ UserService.java        
+│   │   │               └── 🔧 UserServiceImpl.java    
 │   │   └── 📂 resources/
-│   │       └── ⚙️ application.properties              # Config
+│   │       └── ⚙️ application.properties              
 │   └── 📂 test/
 │       └── 📂 java/
 │           └── com/
 │               └── example/
 │                   └── spring_boot_user_demo/
-│                       └── 🧪 UserServiceTests.java   # Unit tests
-├── 📜 build.gradle                                   # Build config
-└── 📖 README.md                                     # This file
+│                       └── 🧪 UserServiceTests.java   
+├── 📜 build.gradle                                   
+└── 📖 README.md                                     
+```
 
 ## ✨ Features
 🏗️ Layered Architecture: Clear separation (Model ↔ Repository ↔ Service)
@@ -60,10 +77,12 @@ Mockito	<img src="https://site.mockito.org/favicon.ico" width="20">	Mocking
 ```text
 git clone https://github.com/yourusername/spring-boot-user-demo.git
 cd spring-boot-user-demo
+```
 
 ## 🏃 Running the Application
 ```text
 ./gradlew bootRun
+```
 
 <details> <summary> ## 📺 Expected Output</summary>
 ```text
@@ -75,6 +94,7 @@ cd spring-boot-user-demo
 ## 🧪 Running Tests
 ```text
 ./gradlew test
+```
 
 ##📜 License
 Distributed under the MIT License. See LICENSE for more information.
