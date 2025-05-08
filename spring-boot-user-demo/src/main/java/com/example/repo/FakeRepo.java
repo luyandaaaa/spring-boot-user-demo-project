@@ -27,6 +27,18 @@ public class FakeRepo implements FakeRepoInterface {
         return "User not found";
     }
 
+    @Override
+    public String deleteUser(long id) {
+        for (int i = 0; i < users.length; i++) {
+            if (users[i] != null && users[i].getId() == id) {
+                String name = users[i].getName();
+                users[i] = null;
+                return name + " removed";
+            }
+        }
+        return "User not found";
+    }
+
 
     
 
