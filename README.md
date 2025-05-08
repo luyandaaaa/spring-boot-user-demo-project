@@ -100,5 +100,5 @@ cd spring-boot-user-demo
 Distributed under the MIT License. See LICENSE for more information.
 
 📬 Contact
-<img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" width="16"> Luyanda Xhakaza - lloyiswa2003@gmail.com
+<img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" width="16"> Luyanda Xhakaza - lloyiswa2003@gmail.com <br />
 <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" width="16"> Project Link: https://github.com/luyandaaaa/spring-boot-user-demo
