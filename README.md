@@ -84,7 +84,6 @@ cd spring-boot-user-demo
 ```
 
 <details> <summary> ## 📺 Expected Output</summary>
-```text
 🟢 User 'John' added with ID: 1
 👋 Hello John Doe
 ❌ User 'John' removed
