@@ -83,7 +83,7 @@ cd spring-boot-user-demo
 ./gradlew bootRun
 ```
 
-<details> <summary> ## 📺 Expected Output</summary>
+<details> <summary>📺 Expected Output</summary>
 🟢 User 'John' added with ID: 1
 👋 Hello John Doe
 ❌ User 'John' removed
