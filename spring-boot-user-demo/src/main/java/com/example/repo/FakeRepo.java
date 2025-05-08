@@ -17,6 +17,17 @@ public class FakeRepo implements FakeRepoInterface {
         return "Database full";
     }
 
+    @Override
+    public String findUserById(long id) {
+        for (User user : users) {
+            if (user != null && user.getId() == id) {
+                return user.getName() + " " + user.getSurname();
+            }
+        }
+        return "User not found";
+    }
+
+
     
 
 }
